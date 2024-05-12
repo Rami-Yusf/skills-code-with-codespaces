@@ -1,19 +1,19 @@
 {
-  "name": "Codespace for Skills!",
-  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
-  "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md",
-  "remoteUser": "codespace",
-  "overrideCommand": false,
- "customizations": {
-     "vscode": {
-         "extensions": [
-             "GitHub.copilot"
-         ]
-     },
-     "codespaces": {
-         "openFiles": [
-             "codespace.md"
-         ]
-     }
-  }
+    "name": "Codespace for Skills!",
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+    "postCreateCommand": "echo '# Writing code upon codespace creation!' >> codespace.md",
+    "remoteUser": "codespace",
+    "overrideCommand": false,
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot"
+            ]
+        },
+        "codespaces": {
+            "openFiles": [
+                "codespace.md"
+            ]
+        }
+    }
 }
